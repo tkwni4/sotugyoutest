@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+.box {
+  position: relative;
+}
+
+.box h1 {
+  position: absolute;
+  color: #fff;
+  bottom: 10%;
+  left: 10%;
+  font-size: 50px;
+  line-height: 0.5;
+  font-weight: bold;
+}
+
+.box h1 small {
+  font-size: 20px;
+}
+
+.box img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.box_txt p {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.onsen_top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onsen_top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.onsen_top li {
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.onsen_top li a {
+  background-color: #25315C;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.onsen_top li a:hover {
+  opacity: 0.5;
+}
+
+#onsen_list1,
+#onsen_list2,
+#onsen_list3 {
+  background: url(../img/温泉02.jpg) center center no-repeat;
+  background-size: cover;
+  margin: 20px 100px;
+}
+
+.member {
+  width: 80%;
+}
+
+.member li {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 540px;
+}
+
+.member_info {
+  position: relative;
+  width: 100%;
+  padding: 35px 45px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  overflow: hidden;
+}
+
+.member_name p {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.member_name p small {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
