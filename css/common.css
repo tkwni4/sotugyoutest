@@ -28,6 +28,7 @@ li {
 .header_inner {
   width: 90%;
   margin: 0 auto;
+  height: 120px;
 }
 
 .header_nav ul {
