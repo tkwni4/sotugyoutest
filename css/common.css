@@ -40,6 +40,7 @@ li {
 .header_nav ul li {
   display: table-cell;
 }
+
 .header_nav ul li a {
   display: block;
   margin: 25px;
@@ -88,8 +89,81 @@ footer p strong {
 margin: 10px;
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .header_inner {
+    width: 100%;
+  }
+  .header_nav ul li a {
+  margin: 15px;
+  }
+}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+.header_inner {
+  height: 0px;
+}
+.header_nav{
+  display: none;
+  
+}
+
+.drawer {
+  position: relative;
+  display: block;
+  width: 24px;
+  right: 15px;
+  margin: 0 0 0 auto;
+  border-top: solid 4px #aaaaaa;
+  cursor: pointer;
+  z-index: 900;
+}
+
+header .drawer::before,
+header .drawer::after {
+  content: "";
+  display: block;
+  width: 24px;
+  background: #aaaaaa;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header .drawer::before {
+  top: 6px;
+}
+header .drawer::after {
+  top: 15px;
+}
+.header_nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: #fff;
+}
+
+.header_nav ul {
+  display: block;
+  text-align: center;
+  float: none;
+  top: 20%;
+}
+
+.header_nav ul li a {
+  font: 18px;
+  line-height: 2;
+}
+
+.ft span {
+  display: inline-block;
+}
+}
