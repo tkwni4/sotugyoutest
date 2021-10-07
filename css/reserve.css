@@ -123,7 +123,7 @@
   margin: 0 auto;
 }
 
-.contact_form_ttl {
+ .contact_form_ttl {
   margin-right: 0;
 }
 
@@ -138,5 +138,13 @@
 
   .contact_form_box2 {
     display: block;
+  }
+
+  .contact_form_ttl_ttl {
+    display: block;
+  }
+
+  .contact_box_area {
+    margin-left: 10%;
   }
 }
